@@ -1,0 +1,65 @@
+{
+    "iconDefinitions": {
+
+        "_folder_sw": { "iconPath": "./icons/synthwave/comum.png" },
+        "_folder_sw_open": { "iconPath": "./icons/synthwave/comum.png" },
+        "_folder_sw_src": { "iconPath": "./icons/synthwave/src.png" },
+        "_folder_sw_assets": { "iconPath": "./icons/synthwave/assets.png" },
+        "_folder_sw_components": { "iconPath": "./icons/synthwave/components.png" },
+        "_folder_sw_pages": { "iconPath": "./icons/synthwave/pages.png" },
+
+        "_folder_cm": { "iconPath": "./icons/Comunism/Pasta comum.png" },
+        "_folder_cm_open": { "iconPath": "./icons/Comunism/Pasta comum.png" },
+        "_folder_cm_src": { "iconPath": "./icons/Comunism/Pastasrc.png" },
+        "_folder_cm_controller": { "iconPath": "./icons/Comunism/controller.png" },
+        "_folder_cm_models": { "iconPath": "./icons/Comunism/Models.png" },
+        "_folder_cm_service": { "iconPath": "./icons/Comunism/service.png" }
+    },
+
+    "folder": "_folder_sw",
+    "folderExpanded": "_folder_sw_open",
+
+    "folderNames": {
+        "src": "_folder_sw_src",
+        "assets": "_folder_sw_assets",
+        "components": "_folder_sw_components",
+        "pages": "_folder_sw_pages",
+        "controllers": "_folder_cm_controller",
+        "controller": "_folder_cm_controller",
+        "models": "_folder_cm_models",
+        "model": "_folder_cm_models",
+        "services": "_folder_cm_service",
+        "service": "_folder_cm_service",
+        "themes": "_folder_sw_src",
+        "routes": "_folder_sw_src",
+        "routers": "_folder_sw_src",
+        "middlewares": "_folder_sw_src",
+        "config": "_folder_sw_src",
+        "utils": "_folder_sw_src",
+        "dist": "_folder_sw_src",
+        "out": "_folder_sw_src",
+        "node_modules": "_folder_cm"
+    },
+
+    "folderNamesExpanded": {
+        "src": "_folder_sw_src",
+        "assets": "_folder_sw_assets",
+        "components": "_folder_sw_components",
+        "pages": "_folder_sw_pages",
+        "controllers": "_folder_cm_controller",
+        "controller": "_folder_cm_controller",
+        "models": "_folder_cm_models",
+        "model": "_folder_cm_models",
+        "services": "_folder_cm_service",
+        "service": "_folder_cm_service",
+        "themes": "_folder_sw_src",
+        "routes": "_folder_sw_src",
+        "middlewares": "_folder_sw_src",
+        "config": "_folder_sw_src",
+        "utils": "_folder_sw_src"
+    },
+
+    "file": "_folder_sw",
+    "fileExtensions": {},
+    "fileNames": {}
+}

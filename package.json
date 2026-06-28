@@ -70,7 +70,14 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/albertool-cyberpunk-color-theme.json"
             }
-        ]
+        ],
+        "iconThemes": [
+        {
+            "id": "albertool-icons",
+            "label": "Albertool Icons",
+            "path": "./albertool-icon-theme.json"
+        }
+    ]
     },
     "scripts": {
         "compile": "echo '✅ Tema pronto! Nada para compilar.'",
