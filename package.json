@@ -1,83 +1,42 @@
 {
     "name": "albertool-futurism",
-    "displayName": "Albertool Futurism",
-    "description": "🎨 Coleção de temas Albertool: Simples, Futurista, Communist, Prime, Vice City, Synthwave 84, Matrix, Crimson, Arctic, Toxic, Nebula e Cyberpunk",
-    "version": "0.0.1",
+    "displayName": "🎨 Albertool Themes | Pack",
+    "description": "Coleção de 15 temas escuros para VS Code — fundo preto, paletas únicas para longas sessões de código.",
+    "version": "0.0.2",
     "publisher": "SidAlbertaodasmassa",
-    "engines": {
-        "vscode": "^1.85.0"
-    },
+    "engines": { "vscode": "^1.85.0" },
     "categories": ["Themes"],
+    "keywords": ["theme", "dark", "synthwave", "cyberpunk", "matrix", "neon", "albertool"],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SidneiAJr/albertool-themes"
+    },
     "contributes": {
         "themes": [
-            {
-                "label": "Albertool Simples",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-simples-color-theme.json"
-            },
-            {
-                "label": "Albertool Futurista",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-futurista-color-theme.json"
-            },
-            {
-                "label": "Albertool Communist",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-communist-color-theme.json"
-            },
-            {
-                "label": "Albertool Prime",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-prime-color-theme.json"
-            },
-            {
-                "label": "Albertool Vice City",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-vicecity-color-theme.json"
-            },
-            {
-                "label": "Albertool Synthwave 84",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-synthwave-color-theme.json"
-            },
-            {
-                "label": "Albertool Matrix",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-matrix-color-theme.json"
-            },
-            {
-                "label": "Albertool Crimson",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-crimson-color-theme.json"
-            },
-            {
-                "label": "Albertool Arctic",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-arctic-color-theme.json"
-            },
-            {
-                "label": "Albertool Toxic",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-toxic-color-theme.json"
-            },
-            {
-                "label": "Albertool Nebula",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-nebula-color-theme.json"
-            },
-            {
-                "label": "Albertool Cyberpunk",
-                "uiTheme": "vs-dark",
-                "path": "./themes/albertool-cyberpunk-color-theme.json"
-            }
+            { "label": "⬛ Albertool Simples",     "uiTheme": "vs-dark", "path": "./themes/albertool-simples-color-theme.json" },
+            { "label": "🔮 Albertool Futurista",   "uiTheme": "vs-dark", "path": "./themes/albertool-futurista-color-theme.json" },
+            { "label": "🔴 Albertool Communist",   "uiTheme": "vs-dark", "path": "./themes/albertool-communist-color-theme.json" },
+            { "label": "👑 Albertool Prime",       "uiTheme": "vs-dark", "path": "./themes/albertool-prime-color-theme.json" },
+            { "label": "🏙️ Albertool Vice City",   "uiTheme": "vs-dark", "path": "./themes/albertool-vicecity-color-theme.json" },
+            { "label": "🌊 Albertool Synthwave 84","uiTheme": "vs-dark", "path": "./themes/albertool-synthwave-color-theme.json" },
+            { "label": "💚 Albertool Matrix",      "uiTheme": "vs-dark", "path": "./themes/albertool-matrix-color-theme.json" },
+            { "label": "🩸 Albertool Crimson",     "uiTheme": "vs-dark", "path": "./themes/albertool-crimson-color-theme.json" },
+            { "label": "❄️ Albertool Arctic",      "uiTheme": "vs-dark", "path": "./themes/albertool-arctic-color-theme.json" },
+            { "label": "☢️ Albertool Toxic",       "uiTheme": "vs-dark", "path": "./themes/albertool-toxic-color-theme.json" },
+            { "label": "🌌 Albertool Nebula",      "uiTheme": "vs-dark", "path": "./themes/albertool-nebula-color-theme.json" },
+            { "label": "🤖 Albertool Cyberpunk",   "uiTheme": "vs-dark", "path": "./themes/albertool-cyberpunk-color-theme.json" },
+            { "label": "🕳️ Albertool Black Hole",  "uiTheme": "vs-dark", "path": "./themes/albertool-black-hole-color-theme.json" },
+            { "label": "🔥 Albertool Lava",        "uiTheme": "vs-dark", "path": "./themes/albertool-lava-color-theme.json" },
+            { "label": "☕ Albertool Coffee",      "uiTheme": "vs-dark", "path": "./themes/albertool-coffee-color-theme.json" }
         ],
         "iconThemes": [
-        {
-            "id": "albertool-icons",
-            "label": "Albertool Icons",
-            "path": "./albertool-icon-theme.json"
-        }
-    ]
+            {
+                "id": "albertool-icons",
+                "label": "Albertool Icons",
+                "path": "./albertool-icon-theme.json"
+            }
+        ]
     },
     "scripts": {
         "compile": "echo '✅ Tema pronto! Nada para compilar.'",
